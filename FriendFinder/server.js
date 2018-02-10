@@ -18,8 +18,8 @@ app.use(bodyParser.json());
 
 // setting up router
 
-require("./routing/apiRoutes")(app);
-require("./routing/htmlRoutes");
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 // setting up our listener
 
